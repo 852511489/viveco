@@ -1,0 +1,2 @@
+2020-08-19 09:17:10 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-19 09:47:03 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 

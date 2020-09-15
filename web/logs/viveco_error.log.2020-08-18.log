@@ -1,0 +1,100 @@
+2020-08-18 13:50:40 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-18 13:51:20 ERROR [Class:c.v.c.c.WebplusCache->Thread:http-nio-801-exec-8] 缓存中没有获取到参数键【common_password】,请确认参数键是否正确，或者键值参数表是否配置或启用，或是否刷新键值参数缓存 
+2020-08-18 14:53:33 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-18 15:04:21 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-18 16:16:54 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-18 16:28:50 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-19] 网络故障 
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:802/ai/pti/ptiHandler
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:31:06 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-27] 网络故障 
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:802/ai/pti/ptiHandler
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:31:10 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-28] 网络故障 
+java.io.IOException: Server returned HTTP response code: 500 for URL: http://localhost:802/ai/pti/ptiHandler
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:33:28 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-39] 网络故障 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:33:28 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-38] 网络故障 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:33:29 ERROR [Class:c.v.c.u.WebplusHttp->Thread:Thread-37] 网络故障 
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.parseHTTP(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:309)
+	at com.viveco.core.util.WebplusHttp.doPost(WebplusHttp.java:280)
+	at com.viveco.system.controller.PsyTestImagesController.lambda$2(PsyTestImagesController.java:211)
+	at com.viveco.system.controller.PsyTestImagesController$$Lambda$10/1508197018.call(Unknown Source)
+	at com.viveco.core.util.WebplusThread$2.run(WebplusThread.java:49)
+2020-08-18 16:35:53 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
+2020-08-18 16:49:11 ERROR [Class:c.a.d.f.FilterManager->Thread:main] load filter error, filter not found : logback 
